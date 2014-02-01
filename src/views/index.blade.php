@@ -10,6 +10,7 @@
 
 <div id="mws-form-dialog">
 	<form class="mws-form" id="message_view">
+		{{Form::token()}}
     	<div class="mws-form-inline">
 					<input type="text" class="medium modal_msg_id" name="id"  value="" style="display:none;">
 					<div class="mws-form-row">

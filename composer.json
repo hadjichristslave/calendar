@@ -1,6 +1,6 @@
 {
     "name": "slave/calendar",
-    "description": "",
+    "description": "Calendar plugin jquery ui based",
     "authors": [
         {
             "name": "panagiotis",

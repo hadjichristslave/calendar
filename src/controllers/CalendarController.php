@@ -49,11 +49,21 @@ class CalendarController extends Controller {
 	}
 	public function getIndex(){
 		return View::make('calendar::index');
-
 	}
-
+	public function postCreate(){
+		Calendar::customCreate();
+	}
+	public function postEdit(){
+		Calendar::customEdit();
+	}
+	public function postDelete($id){
+		Calendar::customDelete($id);
+	}
+	public function getCalreturn(){	
+		return Calendar::returnCal();
+	}
 	public function missingMethod($parameters = Array()){
-		
+		echo 'no method found ';
 	}
 
 
