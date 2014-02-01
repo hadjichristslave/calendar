@@ -56,12 +56,12 @@
 
     <!-- JavaScript Plugins -->
 
-    <script src="{{ 'packages/slave/calendar/js/jquery-1.8.3.min.js') }}"></script>
+    <script src="packages/slave/calendar/js/jquery-1.8.3.min.js"></script>
     <!-- jQuery-UI Dependent Scripts -->
 
-    <script src="{{ 'packages/slave/calendar/js/jquery-ui-1.9.2.min.js') }}"></script>
+    <script src="packages/slave/calendar/js/jquery-ui-1.9.2.min.js"></script>
 
-    <script src="{{ 'packages/slave/calendar/js/fullcalendar.min.js') }}"></script>
+    <script src="packages/slave/calendar/js/fullcalendar.min.js"></script>
 
     <!-- Demo Scripts (remove if not needed) -->
     <script src="packages/slave/calendar/js/dataTableScripts.js"></script>
