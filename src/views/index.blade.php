@@ -26,7 +26,7 @@
 						</div> 
 					</div>
 					<div class="mws-form-row" style="display:none;">
-						<label class="mws-form-label">End</label>
+						<label class="mws-form-label">End</label> 
 						<div class="mws-form-item">
 							<input type="text" class="mws-dtpicker calendar_end"   name="end" readonly="readonly" />
 						</div>
