@@ -1,9 +1,9 @@
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::asset('packages/slave/calendar/css/select2.css') }}">
+<link media="all" type="text/css" rel="stylesheet" href="packages/slave/calendar/css/select2.css">
 
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::asset('packages/slave/calendar/css/fullcalendar.css') }}">
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::asset('packages/slave/calendar/css/fullcalendar.print.css') }}">
+<link media="all" type="text/css" rel="stylesheet" href="packages/slave/calendar/css/fullcalendar.css">
+<link media="all" type="text/css" rel="stylesheet" href="packages/slave/calendar/css/fullcalendar.print.css">
 <!-- jQuery-UI Stylesheet -->
-<link media="all" type="text/css" rel="stylesheet" href="{{ URL::asset('packages/slave/calendar/css/jquery.ui.all.css') }}">
+<link media="all" type="text/css" rel="stylesheet" href="packages/slave/calendar/css/jquery.ui.all.css">
 <div style="width:50%;height:50%;margin:0 auto;">
 <div id="mws-calendar"></div>
 
@@ -56,15 +56,15 @@
 
     <!-- JavaScript Plugins -->
 
-    <script src="{{ URL::asset('packages/slave/calendar/js/jquery-1.8.3.min.js') }}"></script>
+    <script src="{{ 'packages/slave/calendar/js/jquery-1.8.3.min.js') }}"></script>
     <!-- jQuery-UI Dependent Scripts -->
 
-    <script src="{{ URL::asset('packages/slave/calendar/js/jquery-ui-1.9.2.min.js') }}"></script>
+    <script src="{{ 'packages/slave/calendar/js/jquery-ui-1.9.2.min.js') }}"></script>
 
-    <script src="{{ URL::asset('packages/slave/calendar/js/fullcalendar.min.js') }}"></script>
+    <script src="{{ 'packages/slave/calendar/js/fullcalendar.min.js') }}"></script>
 
     <!-- Demo Scripts (remove if not needed) -->
-    <script src="{{ URL::asset('packages/slave/calendar/js/dataTableScripts.js') }}"></script>
-    <script src="{{ URL::asset('packages/slave/calendar/js/demo.calendar.js') }}"></script> 
-    <script src="{{ URL::asset('packages/slave/calendar/js/cmsScripts.js') }}"></script>	
-    <script src="{{ URL::asset('packages/slave/calendar/js/select2.min.js') }}"></script>
+    <script src="packages/slave/calendar/js/dataTableScripts.js"></script>
+    <script src="packages/slave/calendar/js/demo.calendar.js"></script> 
+    <script src="packages/slave/calendar/js/cmsScripts.js"></script>	
+    <script src="packages/slave/calendar/js/select2.min.js"></script>
