@@ -70,14 +70,23 @@
 						</div>
 					</div>
 					<div class="mws-form-row">
-						<label class="mws-form-label">Last Modify From:</label>
-							<select class="mws-select2 medium ev_creator_class" name="user_id" disabled="disabled">
-							     <option value="1" selected >panos</option>
+						<label class="mws-form-label">Διαθέσιμοι υπάληλοι:</label><br>
+							<select class="select2 medium ev_creator_class" name="user_id">
+				               <optgroup label="0 φορές αυτό το μήνα">
+				                   <option value="3">Casper</option>
+				               </optgroup>
+				               <optgroup label="1 φορά μέσα στο μήνα">
+				                   <option value="2">homer</option>
+				               </optgroup>
+				               <optgroup label="κάθε μέρα του μήνα">
+				                   <option value="1">panos</option>
+				                   <option value="1">alex</option>
+				               </optgroup>
 							</select>
 					</div>
 					<div class="mws-form-row" style="display:none;">
 						<label class="mws-form-label">All day </label>
-						<div class="mws-form-item">
+						<div class="mws-form-item"> 
 							<input type="text" class="mws-dtpicker calendar_allday" name="allDay" readonly="readonly" />
 						</div>
 					</div>
@@ -85,6 +94,12 @@
 	</form>
  </div>
 <!-- END FOOTER -->
+
+<style>
+.select2{
+	width:150px;
+}
+</style>
 
 
 @stop
